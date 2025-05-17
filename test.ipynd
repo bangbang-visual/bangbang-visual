@@ -1,0 +1,4 @@
+import os
+import dotenv
+dotenv.load_dotenv()
+print(f"Username: {os.getenv('INSTAGRAM_USERNAME')}")
